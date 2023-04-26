@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Rimma-Sans;
+  src: url("../fonts/RIMMA_SANS-BOLD.TTF");
+}
+
+@font-face {
+  font-family: Steppe-Bold;
+  src: url("../fonts/Steppe-Bold.ttf");
+}
+
+@font-face {
+  font-family: Steppe-Regular;
+  src: url("../fonts/Steppe-Regular.ttf");
+}
+
+@font-face {
+  font-family: Steppe-Medium;
+  src: url("../fonts/Steppe-Medium.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../imgs/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  hyphens: auto;
+}
+
+.first-container {
+  height: 990px;
+  background-image: url("../imgs/first-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px -54px 52px -7px rgba(20, 64, 88, 0.89) inset;
+}
+
+.second-container {
+  background-image: url("../imgs/sims-bg.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.third-container {
+  background-image: url("../imgs/question-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four-container {
+  background-image: url("../imgs/up-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gamepad-container {
+  background-image: url("../imgs/gamepads-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  z-index: -10;
+}
+
+.level3-container {
+  background-image: url("../imgs/level3-bg.png");
+  background-size: cover;
+  height: 100%;
+  padding: 10px;
+  z-index: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.five-container {
+  background-image: url("../imgs/msg-img.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+
+.leve3-money-container {
+  background-image: url("../imgs/money-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.six-container {
+  background-image: url("../imgs/galochki-img.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.eight-container {
+  background-image: url("../imgs/podarki-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
